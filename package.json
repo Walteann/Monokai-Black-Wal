@@ -1,0 +1,21 @@
+{
+    "name": "monokai-black-wal",
+    "displayName": "Monokai-black-wal",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Black Wal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai Black Wal-color-theme.json"
+            }
+        ]
+    }
+}
