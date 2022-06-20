@@ -1,7 +1,5 @@
 # Monokai Black Wal Theme
 
-<p align="center">
-  <img src="assets/preview-1.png" title="Preview in Javascript" />
-  <img src="assets/preview-2.png" title="Preview in HTML" />
-  <img src="assets/example-2.png" title="Preview in TS constant" />
-</p>
+![Preview in Javascript](assets/preview-1.png)
+![Preview in HTML](assets/preview-2.png)
+![Preview typescript constant](assets/example-2.png)
