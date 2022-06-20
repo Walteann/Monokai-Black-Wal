@@ -8,6 +8,10 @@
     },
     "icon": "icon.png",
     "publisher": "monokaiblackwal",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Walteann/Monokai-Black-Wal.git"
+    },
     "keywords": [
         "theme",
         "dark theme",
