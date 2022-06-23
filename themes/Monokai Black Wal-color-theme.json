@@ -3,6 +3,9 @@
 	"colors": {
 		"editor.background": "#000000",
 		"editor.foreground": "#eeffff",
+		"editorLineNumber.activeForeground": "#a6e22e",
+		"editorIndentGuide.activeBackground": "#a6e22e7c",
+		"editor.lineHighlightBackground": "#2020205d",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#0c0b0b",
