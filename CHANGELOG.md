@@ -2,6 +2,29 @@
 
 All notable changes to the "monokai-black-wal" extension will be documented in this file.
 
+## [1.6.0] - 2026-04-01
+
+### Added
+- `button.*` — botões nativos (diálogos, notificações) com cor verde do tema no primário
+- `editorGutter.addedBackground`, `modifiedBackground`, `deletedBackground` — indicadores de diff Git no gutter
+- `editorError.*`, `editorWarning.*`, `editorInfo.*` — squiggles de erro (rosa), warning (amarelo) e info (ciano)
+- `editorInlayHint.*` — inlay hints com fundo azul escuro e texto diferenciado por tipo e parâmetro
+- `merge.*` — regiões de merge conflict coloridas: verde (current) vs ciano (incoming)
+- `galleryBanner` — banner preto no Marketplace para consistência com o tema dark
+- `author` e `bugs.url` no `package.json` para visibilidade no Marketplace
+- Banner de hero (`assets/banner-readme.png`) no topo do README
+
+### Fixed
+- `support.type` duplicado em duas regras com cores conflitantes — unificado em ciano (`#66d9ef`)
+- `keyword.control.from` presente em dois blocos — removido da regra genérica, mantido apenas na regra com `fontStyle: italic`
+- Marcadores de fenced code block no Markdown (`markup.raw.block.fenced.markdown`, `punctuation.definition.fenced.markdown`) estavam com cor `#00000050` (invisível no fundo preto) — corrigido para `#546E7A`
+- Scopes comentados mortos removidos (`// "keyword"` e `// "keyword.control"`)
+
+### Changed
+- `description` no `package.json` atualizado para texto descritivo e buscável no Marketplace
+- `license: "MIT"` adicionado ao `package.json`
+- Screenshots atualizadas com capturas reais do tema ativo (`preview-tsx`, `preview-css`, `preview-ts`, `preview-html`, `preview-dart`)
+
 ## [1.5.0] - 2026-04-01
 
 ### Added

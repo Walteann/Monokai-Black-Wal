@@ -1,12 +1,16 @@
 # Monokai Black Wal
 
+![Banner](assets/banner-readme.png)
+
 A dark VSCode theme with a pure black background, built on the Monokai color palette. High contrast, clean, and easy on the eyes during long coding sessions.
 
 ## Preview
 
-![Preview JavaScript](assets/preview-1.png)
-![Preview HTML](assets/preview-2.png)
-![Preview TypeScript](assets/example-2.png)
+![Preview TypeScript](assets/preview-tsx.png)
+![Preview CSS](assets/preview-css.png)
+![Preview TypeScript Service](assets/preview-ts.png)
+![Preview HTML](assets/preview-html.png)
+![Preview Dart](assets/preview-dart.png)
 
 ## Installation
 

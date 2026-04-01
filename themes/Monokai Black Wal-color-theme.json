@@ -186,6 +186,42 @@
 		"quickInput.background": "#0c0b0b",
 		"quickInput.foreground": "#eeffff",
 		"quickInputHighlight.background": "#a6e22e33",
+
+		// Botões nativos (diálogos, notificações)
+		"button.background": "#a6e22e",
+		"button.foreground": "#000000",
+		"button.hoverBackground": "#8bc227",
+		"button.secondaryBackground": "#111111",
+		"button.secondaryForeground": "#eeffff",
+		"button.secondaryHoverBackground": "#1e1e1f",
+
+		// Gutter — indicadores de diff Git
+		"editorGutter.addedBackground": "#a6e22e",
+		"editorGutter.modifiedBackground": "#66d9ef",
+		"editorGutter.deletedBackground": "#f92672",
+
+		// Squiggles de erro / warning / info
+		"editorError.foreground": "#f92672",
+		"editorError.background": "#f9267210",
+		"editorWarning.foreground": "#e6db74",
+		"editorWarning.background": "#e6db7410",
+		"editorInfo.foreground": "#66d9ef",
+
+		// Inlay hints (tipos inferidos, nomes de parâmetro)
+		"editorInlayHint.background": "#0d0d1a",
+		"editorInlayHint.foreground": "#82AAFF",
+		"editorInlayHint.typeBackground": "#0d0d1a",
+		"editorInlayHint.typeForeground": "#66d9ef",
+		"editorInlayHint.parameterBackground": "#0d0d1a",
+		"editorInlayHint.parameterForeground": "#fd971f",
+
+		// Merge conflicts
+		"merge.currentHeaderBackground": "#0d2a1a",
+		"merge.currentContentBackground": "#0d1a0d",
+		"merge.incomingHeaderBackground": "#0d1a2a",
+		"merge.incomingContentBackground": "#0d1020",
+		"merge.commonHeaderBackground": "#1a1a00",
+		"merge.commonContentBackground": "#141400",
 	},
 	"tokenColors": [
 		{
@@ -231,7 +267,6 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				// "keyword",
 				"storage.type",
 				"storage.modifier",
 				"entity.name.function.dart"
@@ -263,7 +298,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				// "keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -288,7 +322,6 @@
 				"keyword.other.import.dart",
 				"keyword.declaration.dart",
 				"storage.modifier.ts",
-				"keyword.control.from",
 				"keyword.control",
 				"keyword.operator",
 				"source.ini",
@@ -437,7 +470,6 @@
 			"name": "Keywords #a6e22e",
 			"scope": [
 				"entity.name",
-				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
 				"meta.use.php",
@@ -801,16 +833,16 @@
 				"markup.raw.block.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#00000050"
+				"foreground": "#546E7A"
 			}
 		},
 		{
-			"name": "Markdown - Fenced Bode Block",
+			"name": "Markdown - Fenced Code Block Punctuation",
 			"scope": [
 				"punctuation.definition.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#00000050"
+				"foreground": "#546E7A"
 			}
 		},
 		{

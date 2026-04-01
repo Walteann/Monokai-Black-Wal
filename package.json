@@ -1,16 +1,28 @@
 {
     "name": "monokai-black-wal",
     "displayName": "Monokai Black Wal",
-    "description": "The VS code theme",
+    "description": "Pure black Monokai theme with vibrant syntax highlighting, full semantic tokens, and 16-color terminal palette.",
     "version": "1.5.0",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.75.0"
     },
     "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#000000",
+        "theme": "dark"
+    },
     "publisher": "monokaiblackwal",
+    "author": {
+        "name": "Walteann",
+        "url": "https://github.com/Walteann"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/Walteann/Monokai-Black-Wal.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Walteann/Monokai-Black-Wal/issues"
     },
     "keywords": [
         "theme",
