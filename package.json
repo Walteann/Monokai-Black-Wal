@@ -2,12 +2,12 @@
     "name": "monokai-black-wal",
     "displayName": "Monokai Black Wal",
     "description": "Pure black Monokai theme with vibrant syntax highlighting, full semantic tokens, and 16-color terminal palette.",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "license": "MIT",
     "engines": {
         "vscode": "^1.75.0"
     },
-    "icon": "icon.png",
+    "icon": "assets/banner.png",
     "galleryBanner": {
         "color": "#000000",
         "theme": "dark"
@@ -24,14 +24,23 @@
     "bugs": {
         "url": "https://github.com/Walteann/Monokai-Black-Wal/issues"
     },
+    "sponsor": {
+        "url": "https://ko-fi.com/walteann"
+    },
     "keywords": [
         "theme",
+        "color theme",
         "dark theme",
         "black theme",
-        "monokai theme",
+        "pure black",
         "monokai",
+        "monokai black wal",
         "walteann",
-        "monokai black wal"
+        "syntax highlighting",
+        "semantic",
+        "typescript",
+        "dart",
+        "flutter"
     ],
     "categories": [
         "Themes"

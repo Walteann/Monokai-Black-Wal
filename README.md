@@ -4,6 +4,17 @@
 
 A dark VSCode theme with a pure black background, built on the Monokai color palette. High contrast, clean, and easy on the eyes during long coding sessions.
 
+## ☕ Support
+
+If this theme makes your code look a little better, consider buying me a coffee!
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/walteann)
+
+[![Version](https://img.shields.io/visual-studio-marketplace/v/monokaiblackwal.monokai-black-wal?label=Version&color=ae81ff)](https://marketplace.visualstudio.com/items?itemName=monokaiblackwal.monokai-black-wal)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/monokaiblackwal.monokai-black-wal?label=Installs&color=a6e22e)](https://marketplace.visualstudio.com/items?itemName=monokaiblackwal.monokai-black-wal)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/monokaiblackwal.monokai-black-wal?label=Downloads&color=66d9ef)](https://marketplace.visualstudio.com/items?itemName=monokaiblackwal.monokai-black-wal)
+[![License](https://img.shields.io/badge/License-MIT-f92672)](https://github.com/Walteann/Monokai-Black-Wal/blob/main/LICENSE)
+
 ## Preview
 
 ![Preview TypeScript](assets/preview-tsx.png)

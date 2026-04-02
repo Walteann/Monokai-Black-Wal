@@ -2,6 +2,17 @@
 
 All notable changes to the "monokai-black-wal" extension will be documented in this file.
 
+## [1.6.1] - 2026-04-01
+
+### Added
+- `LICENSE` file (MIT)
+- Ko-fi sponsor link no README e no `package.json`
+- Badges de Version, Installs, Downloads e License no README
+
+### Changed
+- Ícone atualizado para `assets/banner.png`
+- Keywords expandidas com `walteann`, `dart`, `flutter`, `semantic`, `pure black`
+
 ## [1.6.0] - 2026-04-01
 
 ### Added
