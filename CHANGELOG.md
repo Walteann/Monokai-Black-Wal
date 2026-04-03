@@ -2,6 +2,46 @@
 
 All notable changes to the "monokai-black-wal" extension will be documented in this file.
 
+## [1.7.0] - 2026-04-03
+
+### Added
+- Bracket Pair Colorization — 6 níveis de cores para `{}[]()` aninhados (`editorBracketHighlight.foreground1-6`)
+- Bracket Matching — destaque roxo ao clicar em bracket (`editorBracketMatch`)
+- Diff Editor — fundos suaves verde/vermelho alinhados à paleta (`diffEditor.*`)
+- Code Folding — ícone verde e fundo sutil na linha dobrada (`editor.foldBackground`, `editorGutter.foldingControlForeground`)
+- Status Bar states — cores por estado: erro rosa, warning amarelo, debugging (`statusBarItem.*`, `statusBar.debugging*`)
+- Overview Ruler — marcadores de erro/warning/git usando paleta do tema (`editorOverviewRuler.*`)
+- Search highlights — range de busca com fundo suave (`editor.findRangeHighlightBackground`, `editor.rangeHighlightBackground`)
+- Tabs modified border — borda verde na aba ativa com alterações (`tab.activeModifiedBorder`, `tab.inactiveModifiedBorder`)
+- Keybinding labels — fundo e borda alinhados ao tema (`keybindingLabel.*`)
+- Symbol Icons — 22 tokens por tipo de símbolo (class, method, variable, enum, etc.) (`symbolIcon.*`)
+- Cursor verde da paleta (`editorCursor.foreground: #a6e22e`)
+- Testing icons — pass verde, fail rosa, pending cinza (`testing.*`)
+- Lightbulb e problem icons alinhados à paleta (`editorLightBulb.*`, `problemsErrorIcon.*`)
+- Copilot/Chat — painel integrado ao tema (`chat.*`, `chatVariable.*`)
+- Notebook/Jupyter — células com bordas da paleta (`notebook.*`, `notebookStatus*`)
+- Checkbox verde e tree indent guides (`checkbox.*`, `tree.*`)
+- Welcome Page integrada ao tema preto (`welcomePage.*`, `textBlockQuote.*`, `textCodeBlock.*`)
+- `editorUnnecessaryCode.opacity` — variáveis não utilizadas com opacidade reduzida
+- Semantic modifiers desconstruídos de `*` para tipos específicos: `function/method/class.declaration`, `method/property.static`, `class/method.abstract`, `function/method.async`, `comment.documentation`, `function/class/variable.defaultLibrary`
+- Scopes por linguagem: Rust lifetimes (`#ae81ff`), SCSS variables (`#FD971F`), JSX/TSX props, Python decorators/type hints/built-ins, Go structs/interfaces/funções, template literals JS/TS (`${}`), regex groups/assertions, Shell/Bash funções e variáveis
+
+### Fixed
+- `entity.name.function.dart` duplicado em duas regras com cores conflitantes — removido de "Keyword, Storage", mantido só em "Function dart" (`#2EA6E2 bold`)
+- `constant.other.color` duplicado em "Operator, Misc" — removido
+- `markup.raw.block.fenced.markdown` em duas regras (`#546E7A` vs `#EEFFFF`) — unificado em `#EEFFFF`
+- `variable.language.fenced.markdown` em duas regras — unificado em `#65737E`
+- `property` semântico (`#eeffff`) conflitando com `entity.other.attribute-name` — alinhado
+- `*.readonly` sobrescrevendo cores indevidamente — desconstruído em `property.readonly`, `property.readonly.declaration` e `variable.readonly`
+- JSON strings com cor `#cfcfc2` (confundia com comentários) — corrigido para `#e6db74`
+- `*.readonly` cor fora da paleta (`#2a8ee0`) corrigida para `#66d9ef`
+
+### Changed
+- `property` (semantic token) — cor ajustada para `#64B5F6` (azul céu claro)
+- `property.readonly` — `#42A5F5` itálico (uso) e `#eeffff` itálico (declaração)
+- `variable.language` (`this`, `self`) — cor ajustada para `#ae81ff` itálico
+- `interface` (semantic token) — diferenciado de `storage.type` com `#a6e22e`
+
 ## [1.6.1] - 2026-04-01
 
 ### Added

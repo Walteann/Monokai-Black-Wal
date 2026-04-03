@@ -2,7 +2,7 @@
     "name": "monokai-black-wal",
     "displayName": "Monokai Black Wal",
     "description": "Pure black Monokai theme with vibrant syntax highlighting, full semantic tokens, and 16-color terminal palette.",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "license": "MIT",
     "engines": {
         "vscode": "^1.75.0"
